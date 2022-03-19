@@ -2,7 +2,10 @@
   "name": "b3.0",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://eqan.github.io/BKrypt",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
